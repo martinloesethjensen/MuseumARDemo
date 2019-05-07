@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49863B9D2281B07C00370F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49863B9C2281B07C00370F3A /* AppDelegate.swift */; };
+		49863B9F2281B07C00370F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49863B9E2281B07C00370F3A /* ViewController.swift */; };
+		49863BA22281B07C00370F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49863BA02281B07C00370F3A /* Main.storyboard */; };
+		49863BA42281B07D00370F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49863BA32281B07D00370F3A /* Assets.xcassets */; };
+		49863BA72281B07D00370F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49863BA52281B07D00370F3A /* LaunchScreen.storyboard */; };
+		49863BB22281B07D00370F3A /* MuseumARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49863BB12281B07D00370F3A /* MuseumARTests.swift */; };
+		49863BBD2281B07E00370F3A /* MuseumARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49863BBC2281B07E00370F3A /* MuseumARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49863BAE2281B07D00370F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49863B912281B07C00370F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49863B982281B07C00370F3A;
+			remoteInfo = MuseumAR;
+		};
+		49863BB92281B07D00370F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49863B912281B07C00370F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49863B982281B07C00370F3A;
+			remoteInfo = MuseumAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49863B992281B07C00370F3A /* MuseumAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseumAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49863B9C2281B07C00370F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49863B9E2281B07C00370F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49863BA12281B07C00370F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49863BA32281B07D00370F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49863BA62281B07D00370F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49863BA82281B07D00370F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49863BAD2281B07D00370F3A /* MuseumARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49863BB12281B07D00370F3A /* MuseumARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumARTests.swift; sourceTree = "<group>"; };
+		49863BB32281B07D00370F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49863BB82281B07D00370F3A /* MuseumARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseumARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49863BBC2281B07E00370F3A /* MuseumARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumARUITests.swift; sourceTree = "<group>"; };
+		49863BBE2281B07E00370F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49863B962281B07C00370F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49863BAA2281B07D00370F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49863BB52281B07D00370F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49863B902281B07C00370F3A = {
+			isa = PBXGroup;
+			children = (
+				49863B9B2281B07C00370F3A /* MuseumAR */,
+				49863BB02281B07D00370F3A /* MuseumARTests */,
+				49863BBB2281B07D00370F3A /* MuseumARUITests */,
+				49863B9A2281B07C00370F3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49863B9A2281B07C00370F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49863B992281B07C00370F3A /* MuseumAR.app */,
+				49863BAD2281B07D00370F3A /* MuseumARTests.xctest */,
+				49863BB82281B07D00370F3A /* MuseumARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49863B9B2281B07C00370F3A /* MuseumAR */ = {
+			isa = PBXGroup;
+			children = (
+				49863B9C2281B07C00370F3A /* AppDelegate.swift */,
+				49863B9E2281B07C00370F3A /* ViewController.swift */,
+				49863BA02281B07C00370F3A /* Main.storyboard */,
+				49863BA32281B07D00370F3A /* Assets.xcassets */,
+				49863BA52281B07D00370F3A /* LaunchScreen.storyboard */,
+				49863BA82281B07D00370F3A /* Info.plist */,
+			);
+			path = MuseumAR;
+			sourceTree = "<group>";
+		};
+		49863BB02281B07D00370F3A /* MuseumARTests */ = {
+			isa = PBXGroup;
+			children = (
+				49863BB12281B07D00370F3A /* MuseumARTests.swift */,
+				49863BB32281B07D00370F3A /* Info.plist */,
+			);
+			path = MuseumARTests;
+			sourceTree = "<group>";
+		};
+		49863BBB2281B07D00370F3A /* MuseumARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49863BBC2281B07E00370F3A /* MuseumARUITests.swift */,
+				49863BBE2281B07E00370F3A /* Info.plist */,
+			);
+			path = MuseumARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49863B982281B07C00370F3A /* MuseumAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49863BC12281B07E00370F3A /* Build configuration list for PBXNativeTarget "MuseumAR" */;
+			buildPhases = (
+				49863B952281B07C00370F3A /* Sources */,
+				49863B962281B07C00370F3A /* Frameworks */,
+				49863B972281B07C00370F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseumAR;
+			productName = MuseumAR;
+			productReference = 49863B992281B07C00370F3A /* MuseumAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49863BAC2281B07D00370F3A /* MuseumARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49863BC42281B07E00370F3A /* Build configuration list for PBXNativeTarget "MuseumARTests" */;
+			buildPhases = (
+				49863BA92281B07D00370F3A /* Sources */,
+				49863BAA2281B07D00370F3A /* Frameworks */,
+				49863BAB2281B07D00370F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49863BAF2281B07D00370F3A /* PBXTargetDependency */,
+			);
+			name = MuseumARTests;
+			productName = MuseumARTests;
+			productReference = 49863BAD2281B07D00370F3A /* MuseumARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49863BB72281B07D00370F3A /* MuseumARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49863BC72281B07E00370F3A /* Build configuration list for PBXNativeTarget "MuseumARUITests" */;
+			buildPhases = (
+				49863BB42281B07D00370F3A /* Sources */,
+				49863BB52281B07D00370F3A /* Frameworks */,
+				49863BB62281B07D00370F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49863BBA2281B07D00370F3A /* PBXTargetDependency */,
+			);
+			name = MuseumARUITests;
+			productName = MuseumARUITests;
+			productReference = 49863BB82281B07D00370F3A /* MuseumARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49863B912281B07C00370F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Martin Løseth Jensen";
+				TargetAttributes = {
+					49863B982281B07C00370F3A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					49863BAC2281B07D00370F3A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 49863B982281B07C00370F3A;
+					};
+					49863BB72281B07D00370F3A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 49863B982281B07C00370F3A;
+					};
+				};
+			};
+			buildConfigurationList = 49863B942281B07C00370F3A /* Build configuration list for PBXProject "MuseumAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49863B902281B07C00370F3A;
+			productRefGroup = 49863B9A2281B07C00370F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49863B982281B07C00370F3A /* MuseumAR */,
+				49863BAC2281B07D00370F3A /* MuseumARTests */,
+				49863BB72281B07D00370F3A /* MuseumARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49863B972281B07C00370F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49863BA72281B07D00370F3A /* LaunchScreen.storyboard in Resources */,
+				49863BA42281B07D00370F3A /* Assets.xcassets in Resources */,
+				49863BA22281B07C00370F3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49863BAB2281B07D00370F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49863BB62281B07D00370F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49863B952281B07C00370F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49863B9F2281B07C00370F3A /* ViewController.swift in Sources */,
+				49863B9D2281B07C00370F3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49863BA92281B07D00370F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49863BB22281B07D00370F3A /* MuseumARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49863BB42281B07D00370F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49863BBD2281B07E00370F3A /* MuseumARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49863BAF2281B07D00370F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49863B982281B07C00370F3A /* MuseumAR */;
+			targetProxy = 49863BAE2281B07D00370F3A /* PBXContainerItemProxy */;
+		};
+		49863BBA2281B07D00370F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49863B982281B07C00370F3A /* MuseumAR */;
+			targetProxy = 49863BB92281B07D00370F3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49863BA02281B07C00370F3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49863BA12281B07C00370F3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49863BA52281B07D00370F3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49863BA62281B07D00370F3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49863BBF2281B07E00370F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49863BC02281B07E00370F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49863BC22281B07E00370F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FXMUQ2C49;
+				INFOPLIST_FILE = MuseumAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.mlj.MuseumAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49863BC32281B07E00370F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FXMUQ2C49;
+				INFOPLIST_FILE = MuseumAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.mlj.MuseumAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49863BC52281B07E00370F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FXMUQ2C49;
+				INFOPLIST_FILE = MuseumARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.mlj.MuseumARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseumAR.app/MuseumAR";
+			};
+			name = Debug;
+		};
+		49863BC62281B07E00370F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FXMUQ2C49;
+				INFOPLIST_FILE = MuseumARTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.mlj.MuseumARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuseumAR.app/MuseumAR";
+			};
+			name = Release;
+		};
+		49863BC82281B07E00370F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FXMUQ2C49;
+				INFOPLIST_FILE = MuseumARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.mlj.MuseumARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseumAR;
+			};
+			name = Debug;
+		};
+		49863BC92281B07E00370F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FXMUQ2C49;
+				INFOPLIST_FILE = MuseumARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dk.mlj.MuseumARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuseumAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49863B942281B07C00370F3A /* Build configuration list for PBXProject "MuseumAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49863BBF2281B07E00370F3A /* Debug */,
+				49863BC02281B07E00370F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49863BC12281B07E00370F3A /* Build configuration list for PBXNativeTarget "MuseumAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49863BC22281B07E00370F3A /* Debug */,
+				49863BC32281B07E00370F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49863BC42281B07E00370F3A /* Build configuration list for PBXNativeTarget "MuseumARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49863BC52281B07E00370F3A /* Debug */,
+				49863BC62281B07E00370F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49863BC72281B07E00370F3A /* Build configuration list for PBXNativeTarget "MuseumARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49863BC82281B07E00370F3A /* Debug */,
+				49863BC92281B07E00370F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49863B912281B07C00370F3A /* Project object */;
+}
